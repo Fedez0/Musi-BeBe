@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bebeColor"
+    android:orientation="vertical">
+    
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toolbar"
+        app:title=" "
+        android:theme="@style/menuTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <ImageView
+        android:layout_width="424dp"
+        android:layout_height="269dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <SearchView
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30px"
+            android:layout_weight="1"
+            android:id="@+id/search_view"
+            android:theme="@style/ThemeOverlay.AppCompat.Light"
+            />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Mondo"
+            android:theme="@style/ThemeOverlay.AppCompat.Light" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fillViewport="true"
+        android:measureAllChildren="false"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="30px"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Tutti"
+                />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Rap"
+                />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Pop"
+                />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Reggaeton"
+                />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Trap"
+                />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Rock"
+                />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Indie"
+                />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Classica"
+                />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="400px"
+                android:layout_height="40dp"
+
+                style="@style/CustomButtonStyle"
+                android:onClick="pressioneTasto"
+                android:text="Elettronica"
+                />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Canzoni più popolari"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+        android:paddingLeft="20dp"
+        android:textColor="@color/black"/>
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:divider="#0FFF"
+        android:dividerHeight="10dp" />
+
+</LinearLayout>

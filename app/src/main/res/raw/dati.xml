@@ -1,0 +1,48 @@
+<lista_film>
+	<Music id_film="1" >
+
+		<titolo>LUNCH</titolo>
+		<genere>Billie Eilish</genere>
+		<durata>179</durata>
+	</Music>
+
+	<Music id_film="2" >
+		<titolo> Espresso</titolo>
+		<genere>Sabrina Carpenter</genere>
+		<durata>175</durata>
+	</Music>
+
+	<Music id_film="3" >
+		<titolo> MILLION DOLLAR BABY</titolo>
+		<genere>Tommy Richman</genere>
+		<durata>155</durata>
+	</Music>
+
+	<Music id_film="4" >
+		<titolo>Not Like Us</titolo>
+		<genere>Kendrick Lamar</genere>
+		<durata>274</durata>
+	</Music>
+
+	<Music id_film="5" >
+		<titolo>BIRDS OF A FEATHER</titolo>
+		<genere>Billie Eilish</genere>
+		<durata>210</durata>
+	</Music>
+
+	<Music id_film="6" >
+		<titolo>Gata Only</titolo>
+		<genere>Floyy, Cris Mj</genere>
+		<durata>222</durata>
+	</Music>
+	<Music id_film="7" >
+		<titolo>CHIHIRO</titolo>
+		<genere>Billie Eilish</genere>
+		<durata>303</durata>
+	</Music>
+	<Music id_film="8" >
+		<titolo>Too Sweet</titolo>
+		<genere>Hozier</genere>
+		<durata>251</durata>
+	</Music>
+</lista_film>

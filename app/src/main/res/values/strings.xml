@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusiBebe</string>
+    <string-array name="languages">
+        <item>Italia</item>
+        <item>Mondo</item>
+    </string-array>
+</resources>
